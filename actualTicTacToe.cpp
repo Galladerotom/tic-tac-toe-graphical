@@ -209,7 +209,7 @@ int main()
     const int windowSize = 3 * tileSize + (3 - 1) * barWidth;
 
     // Create the main window: it has a title bar and a close button, but is not resizable
-    sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "ECE244 Tic-Tac-Toe", sf::Style::Titlebar | sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "Tic-Tac-Toe", sf::Style::Titlebar | sf::Style::Close);
 
     // Set the Icon that appears in the task bar when the window is minimized
     // Insert you code here, see the lab handout
